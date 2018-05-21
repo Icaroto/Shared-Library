@@ -2,7 +2,7 @@
 package org.basic;
 
 def checkOutFrom(repo) {
-  git url: "git@github.com:Icaroto/${repo}.git"
+  echo "this is the repository: ${repo}"
 }
 
 // def checkOutFrom(branch) {
