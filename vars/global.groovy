@@ -2,7 +2,7 @@
 
 def nugetPath;
 
-def nuget 
+def nuget()
 {
     return nugetPath;
 } 
