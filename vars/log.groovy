@@ -11,3 +11,7 @@ def warning(message) {
 def error(message) {
     echo "ERROR: ${message}"
 }
+
+def test(){
+    return "This Is the message"   
+}
