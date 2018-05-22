@@ -1,12 +1,13 @@
 #! groovy
+def NugetPath = ''
+def OtherPath = ''
 
-def nugetPath;
+def call(Map config) {
+    if ($config.NugetPath != ''){
+        NugetPath = $config.NugetPath;
+    }
 
-def nuget()
-{
-    return nugetPath;
-} 
-
-def nuget(path) {
-    nugetPath = path;
+    if ($config.NugetPath != ''){
+        OtherPath = $config.OtherPath;
+    }   
 }
