@@ -4,6 +4,7 @@ package org.basic;
 def call(Map config) {
     node {
         stage ('Get Source Code') {
+          log.info 'TESTING USING LIBRARY'
           echo "This is the first variable ${config.first}"
         }
 
